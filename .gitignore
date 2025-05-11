@@ -1,0 +1,33 @@
+# === Output của quá trình huấn luyện ===
+checkpoints/
+outputs/
+runs/                  # nếu dùng tensorboard
+*.log
+log.txt
+*.ckpt
+*.bin
+*.out
+
+# === Cache model từ HuggingFace ===
+cache
+~/.cache/
+**/cached_*
+**/__pycache__/
+**/*.pyc
+**/*.pkl
+*.cache
+*.tmp
+
+runs/
+events.out.tfevents.*
+
+# === File hệ thống / editor ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# === File inference sinh ra ===
+preds.txt
+results.txt

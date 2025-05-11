@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-TASK_NAME="test20"
+TASK_NAME="laptop14"
 ABSA_HOME="./bert-linear-laptop14-finetune"
 CUDA_VISIBLE_DEVICES=0 python work.py --absa_home ${ABSA_HOME} \
                       --ckpt ${ABSA_HOME}/checkpoint-1500 \
