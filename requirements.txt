@@ -1,0 +1,7 @@
+torch==1.10.0
+numpy==1.22.0
+transformers==4.1.1
+tqdm==4.32.1
+tensorboardX==1.8
+typing_extensions>=3.10.0.0
+protobuf==3.20.*
