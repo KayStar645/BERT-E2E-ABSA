@@ -61,7 +61,7 @@ python fast_run.py
 ### Suy luận với mô hình đã huấn luyện:
 1. Đặt dữ liệu trong `./data/[TÊN_BỘ_DỮ_LIỆU_EVAL]`  
 2. Thiết lập `TASK_NAME` và `ABSA_HOME` trong `work.sh`  
-3. Chạy `sh work.sh`  
+3. Chạy `c`  
 
 ---
 
